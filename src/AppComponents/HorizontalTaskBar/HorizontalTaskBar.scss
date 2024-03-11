@@ -1,0 +1,16 @@
+.horizontalTaskBox{
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subTaskBox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: large;
+    font-weight: lighter;
+}

@@ -1,0 +1,16 @@
+.sidebox{
+    width: 12%;
+    height: calc(100dvh - 72px);
+    background-color: white;
+    border-radius: 4px;
+    position: sticky;
+    top:72px;
+
+}
+.sideElementsClass{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 12px;
+    margin-top: 20px;
+}

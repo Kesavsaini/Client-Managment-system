@@ -1,0 +1,16 @@
+.homeBox{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.homeSubBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.widgetClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+.widgetBox{
+    background-color: #fff;
+    width: 160px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.widgetTitle{
+    font-weight: lighter;
+}
+
+.widgetValue{
+    font-weight: bolder;
+    font-size: xx-large;
+}

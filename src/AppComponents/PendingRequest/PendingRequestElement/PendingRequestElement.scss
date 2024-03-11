@@ -1,0 +1,23 @@
+.PendingrequestElementBox{
+     display: flex;
+     flex-direction: column;
+    .titleBox{
+        display: flex;
+        align-items: center;
+        gap:4px;
+        .requestTitle{
+            font-weight: 600;
+            font-size: small;
+        }
+        .date{
+            font-weight: 100;
+            font-size: xx-small;
+            color: rgb(155, 153, 153);
+        }
+    }
+    .pRequestDetails{
+        font-weight: 400;
+        font-size: small;
+    }
+}
+
