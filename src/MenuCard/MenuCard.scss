@@ -1,0 +1,15 @@
+.menuCard{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    min-width: 100px;
+    background-color: #fff;
+    border: 1px black solid;
+    padding: 12px;
+    border-radius: 12px;
+    display: none;
+    cursor: pointer;
+    &:hover{
+        display: block;
+    }
+}

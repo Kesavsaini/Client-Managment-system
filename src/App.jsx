@@ -15,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}> </Route>
       <Route path="/client" element={<Client/>}> </Route>
+      <Route path="/tasks" element={<t/>}> </Route>
     </Routes>
   </div>
   </div>

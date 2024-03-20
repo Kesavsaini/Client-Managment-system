@@ -1,0 +1,38 @@
+.clientModalBox{
+    display: flex;
+}
+
+.clientModalLeft{
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.clientModalRight{
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.clientNameInput{
+    width: 400px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px gray solid;
+}
+
+.clientDetailsInput{
+  width: 800px;
+  height: 200px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px gray solid;
+}
+
+.addRequestButton{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}

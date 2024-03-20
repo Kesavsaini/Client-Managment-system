@@ -1,0 +1,67 @@
+.clientWidgetBox{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    width: 46%;
+}
+
+.leftClientBox{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  .clientTitle{
+    font-size: larger;
+    font-weight: 400;
+  }
+  .clientRevenue{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.clientLogoBox{
+    height: 100px;
+    width: 160px;
+    border-radius: 12px;
+}
+
+.rightClientBox{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-end;
+   gap: 8px;
+}
+
+.requestNumberBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.requestType{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.clientWidgetMenueDots{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  border-top-right-radius: 12px;
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    + .menuCard{
+      display: block;
+    }
+  }
+
+}
+

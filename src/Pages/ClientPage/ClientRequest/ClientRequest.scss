@@ -1,0 +1,39 @@
+.clientRequestBox{
+    background-color: #F1F1F1;
+    padding: 26px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.clientpayment{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    align-items: center;
+    gap: 4px;
+    font-weight:600;
+}
+
+.clinetRequestSubBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.RequestRightBox{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.deleteRequest{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    &:hover{
+        color: red;
+    }
+}
