@@ -3,7 +3,8 @@ import './TaskWidget.scss'
 import { ItemTypes } from '../../Utils'
 import { useDrag,useDrop } from 'react-dnd'
 
-const TaskWidget = ({id,title,status,date,task,index,moveCard}) => {
+const TaskWidget = ({id,title,status,date,task,index,moveCard,setTasks}) => {
+  
   const [{ isDragging }, drag] = useDrag({
     type: ItemTypes.TASK,
     item: () => {
@@ -15,8 +16,8 @@ const TaskWidget = ({id,title,status,date,task,index,moveCard}) => {
     end:(item,monitor)=>{
       const dropResult = monitor.getDropResult();
       if(item){
-        console.log("here");
-         moveCard(item)
+        if(moveCard) moveCard(item);
+        if(setTasks) setTasks(prev=>prev.filter((_,index)=>index!==item.index));
       }
     }
   })

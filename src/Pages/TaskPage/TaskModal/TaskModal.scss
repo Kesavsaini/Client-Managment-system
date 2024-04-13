@@ -1,0 +1,32 @@
+.taskNameInput{
+    width: 400px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px gray solid;
+}
+
+.taskDetailsInput{
+    width: 800px;
+    height: 200px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px gray solid;
+  }
+
+  .taskModal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .calender{
+    width: 400px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px gray solid;
+  }
+
+  .taskModalSubBox{
+    display: flex;
+    flex-wrap: wrap;
+  }

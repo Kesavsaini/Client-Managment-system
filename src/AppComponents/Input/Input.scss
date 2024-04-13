@@ -1,0 +1,57 @@
+.inputBox {
+  position: relative;
+}
+.input {
+  outline: none;
+  border: none;
+  flex: 1;
+}
+
+.autoCompleteBox {
+  width: 400px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #dddbdb;
+  position: absolute;
+}
+
+.suggestionRow {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: white solid 1px;
+  border-radius: 12px;
+  &:hover{
+    background-color: rgb(180, 180, 180);
+  }
+}
+
+.chipLabel {
+  width: 400px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px gray solid;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  background-color: #388bc6;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px #388bc6 solid;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: small;
+}
+
+.closeChip {
+  background-color: #0d5c94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

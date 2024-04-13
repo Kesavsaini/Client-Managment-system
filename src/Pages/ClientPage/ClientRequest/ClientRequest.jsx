@@ -2,7 +2,19 @@ import React from 'react'
 import RichTextEditor from '../../../AppComponents/RichTextEditor/RichTextEditor';
 import './ClientRequest.scss'
 import DeleteIcon from '@mui/icons-material/Delete';
+import DropDown from '../../../AppComponents/DropDown/DropDown';
 
+const options=[
+  {
+    value:"pending"
+  },
+  {
+    value:"progress"
+  },
+  {
+    value:"completed"
+  }
+]
 
 const ClientRequest = ({cientRequest,index,setRequests}) => {
     const deleteRequest=()=>{
@@ -25,11 +37,7 @@ const ClientRequest = ({cientRequest,index,setRequests}) => {
            </div>
            <div className='RequestRightBox'>
              <label htmlFor="" style={{fontWeight:600}}>Status</label>
-             <select name="" id="" style={{padding:"12px",borderRadius:"8px"}}>
-               <option value="pending" style={{padding:"12px",margin:"12px"}}>Pending</option>  
-               <option value="progress" >Progress</option>  
-               <option value="completed" >Completed</option>    
-            </select> 
+             <DropDown options={options}/>
              
            </div>
         </div>

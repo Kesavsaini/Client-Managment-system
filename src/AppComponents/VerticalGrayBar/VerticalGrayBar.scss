@@ -1,0 +1,32 @@
+.verticalGrayBox{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    padding: 12px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    width: 180px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.taskProfileBox{
+  display: flex;
+ align-items: center;
+ gap: 8px;
+}
+
+.emptyBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.verticalTasks{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

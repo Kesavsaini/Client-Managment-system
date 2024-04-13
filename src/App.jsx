@@ -4,6 +4,7 @@ import Home from './Pages/HomePage/Home';
 import Navbar from './AppComponents/NavBar/Navbar';
 import SideBar from './AppComponents/SideBar/SideBar';
 import Client from './Pages/ClientPage/Client';
+import TaskPage from './Pages/TaskPage/TaskPage';
 function App() {
   return (
     <BrowserRouter>
@@ -15,7 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}> </Route>
       <Route path="/client" element={<Client/>}> </Route>
-      <Route path="/tasks" element={<t/>}> </Route>
+      <Route path="/tasks" element={<TaskPage/>}> </Route>
     </Routes>
   </div>
   </div>

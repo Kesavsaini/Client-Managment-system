@@ -107,7 +107,6 @@ const HorizontalTaskBar = () => {
        <div>Tasks in Progress</div>
        <HoriZontalGrayBar tasks={progressCard} ref={progressRef} moveCard={moveCardtoPending}/>
       </div>
-
     </div>
   )
 }

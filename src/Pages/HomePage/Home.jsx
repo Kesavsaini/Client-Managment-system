@@ -4,8 +4,7 @@ import RevenueChart from '../../AppComponents/RevenueChart/RevenueChart'
 import PendingRequest from '../../AppComponents/PendingRequest/PendingRequest'
 import Widget from '../../AppComponents/Widget/Widget'
 import HorizontalTaskBar from '../../AppComponents/HorizontalTaskBar/HorizontalTaskBar'
-import { DndProvider } from 'react-dnd'
-import { HTML5Backend } from 'react-dnd-html5-backend'
+
 
 const widgetData=[
   {
@@ -27,7 +26,6 @@ const widgetData=[
 
 const Home = () => {
   return (
-    <DndProvider backend={HTML5Backend}>
     <div className='homeBox'>
       <div className='homeSubBox'>
       <RevenueChart/>
@@ -44,7 +42,6 @@ const Home = () => {
         <HorizontalTaskBar/>
       </div>
     </div>
-    </DndProvider>
   )
 }
 
